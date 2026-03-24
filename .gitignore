@@ -26,6 +26,8 @@ coverage
 .parcel-cache
 .turbo
 .vite
+.next
+out
 *.tsbuildinfo
 
 # OS files
