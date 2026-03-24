@@ -14,7 +14,7 @@ export function TestingSection() {
           </ul>
 
           <a
-            href="#"
+            href="https://forms.gle/ttCbviCyvZiVRuQHA"
             className="mt-7 inline-flex items-center rounded-md bg-primary px-5 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-orange-600"
           >
             Apply for Testing
