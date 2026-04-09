@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "node scripts/seo-guardrails-check.mjs",
+        "windows": "node scripts/seo-guardrails-check.mjs",
+        "linux": "node scripts/seo-guardrails-check.mjs",
+        "osx": "node scripts/seo-guardrails-check.mjs",
+        "timeout": 20
+      }
+    ]
+  }
+}

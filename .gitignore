@@ -29,6 +29,10 @@ coverage
 .next
 out
 *.tsbuildinfo
+.eslintcache
+
+# Vercel deployment
+.vercel
 
 # OS files
 Thumbs.db
@@ -44,3 +48,10 @@ Desktop.ini
 *.njsproj
 *.sln
 *.sw?
+*.swp
+*.swo
+
+# Local development files
+.local
+*.pid
+*.seed
