@@ -7,9 +7,9 @@ const inter = Inter({
 });
 
 const siteName = "Battle League";
-const defaultTitle = "Battle League Free Fire Tournaments & Custom Matches";
+const defaultTitle = "Free Fire Tournament App | Instant Join & Auto Matchmaking";
 const defaultDescription =
-  "Join Battle League to enter Free Fire custom room tournaments, compete in skill-based matches, and get early access to upcoming reward-driven events.";
+  "Battle League is a Free Fire tournament app for instant join matches, auto squad formation, custom rooms, scrims, and fast rewards.";
 
 export const metadata = {
   title: {
@@ -18,20 +18,24 @@ export const metadata = {
   },
   description: defaultDescription,
   keywords: [
-    "Battle League",
-    "Free Fire tournament",
-    "Free Fire custom room",
-    "esports platform",
-    "mobile gaming tournament",
-    "skill based matches",
+    "Free Fire Tournament App",
+    "Instant Tournament Join",
+    "Auto Matchmaking Tournament",
+    "Free Fire Custom Room",
+    "Solo Duo Squad Tournament",
+    "Online Esports Tournament",
+    "Free Fire Scrims",
+    "Gaming Tournament Platform",
+    "Battle Royale Tournament App",
+    "Auto Squad Formation",
   ],
   alternates: {
     canonical: "/",
   },
   icons: {
-    icon: "/Battle League logos/light-bg-circle.svg",
-    shortcut: "/Battle League logos/light-bg-circle.svg",
-    apple: "/Battle League logos/light-bg-circle.svg",
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   robots: {
     index: true,
@@ -53,10 +57,10 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "/icons.svg",
-        width: 1200,
-        height: 630,
-        alt: "Battle League Free Fire tournament platform",
+        url: "/logo.png",
+        width: 512,
+        height: 512,
+        alt: "Battle League instant join Free Fire tournament platform",
       },
     ],
   },
@@ -64,7 +68,7 @@ export const metadata = {
     card: "summary_large_image",
     title: defaultTitle,
     description: defaultDescription,
-    images: ["/icons.svg"],
+    images: ["/logo.png"],
   },
   category: "gaming",
 };
@@ -73,9 +77,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/Battle League logos/light-bg-circle.svg" type="image/svg+xml" />
-        <link rel="shortcut icon" href="/Battle League logos/light-bg-circle.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/Battle League logos/light-bg-circle.svg" />
+        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="shortcut icon" href="/logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/logo.png" />
       </head>
       <body className={`${inter.variable} bg-white text-slate-800 antialiased`}>
         {children}

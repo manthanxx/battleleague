@@ -1,6 +1,6 @@
 # Battle League Landing Page
 
-A clean, minimal, and professional single-page landing website for the upcoming Battle League Free Fire tournament app.
+A clean, minimal, and professional single-page landing website for Battle League, a Free Fire tournament app focused on instant join and auto matchmaking.
 
 ## Stack
 
@@ -33,5 +33,6 @@ A clean, minimal, and professional single-page landing website for the upcoming 
 - About
 - Features
 - How It Works
-- Join Early Testing
+- Instant Join CTA
+- FAQ
 - Footer

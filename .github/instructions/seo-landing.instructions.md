@@ -9,7 +9,7 @@ applyTo:
 ---
 # Landing SEO Rules
 
-- Keep exactly one page-level intent: players joining Battle League early testing.
+- Keep exactly one page-level intent: players joining Battle League through instant join and auto matchmaking.
 - Keep exactly one h1 across landing sections. Use h2 for section titles and avoid skipping heading levels.
 - Place the primary keyword naturally in page title, meta description, intro copy, and one section heading.
 - Use secondary keywords only where context is genuinely relevant. Avoid repetitive phrasing.

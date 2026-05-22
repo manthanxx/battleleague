@@ -1,9 +1,8 @@
-import Image from "next/image";
-
 const links = [
   { label: "About", href: "#about" },
   { label: "Features", href: "#features" },
-  { label: "Join Testing", href: "#testing" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Join Now", href: "#join-now" },
 ];
 
 export function Header() {
@@ -11,12 +10,11 @@ export function Header() {
     <header className="sticky top-0 z-30 border-b border-slate-100 bg-white/95 backdrop-blur">
       <div className="mx-auto flex h-16 w-full max-w-6xl items-center justify-between px-6 md:px-8">
         <a
-          href="#"
+          href="/"
           className="inline-flex items-center gap-2 text-base font-semibold tracking-tight text-slate-900"
         >
-          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/Battle League logos/light-bg-circle.svg"
+            src="/logo.png"
             alt="Battle League logo"
             className="h-10 w-10 rounded-full object-cover"
           />

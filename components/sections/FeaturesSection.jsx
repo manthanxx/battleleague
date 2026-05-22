@@ -5,8 +5,13 @@ export function FeaturesSection() {
     <section id="features" className="border-t border-slate-100 bg-slate-50">
       <div className="mx-auto w-full max-w-6xl px-6 py-16 md:px-8 md:py-20">
         <h2 className="text-2xl font-semibold tracking-tight text-slate-900 md:text-3xl">
-          Features
+          Free Fire tournament features built for speed
         </h2>
+        <p className="mt-4 max-w-3xl text-base leading-relaxed text-slate-600">
+          From instant match join to live tournament updates, Battle League is
+          designed like a premium esports platform with fast entry, smooth
+          matchmaking, and reward-ready competition.
+        </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature) => (
