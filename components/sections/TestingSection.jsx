@@ -15,6 +15,8 @@ export function TestingSection() {
 
           <a
             href="https://forms.gle/ttCbviCyvZiVRuQHA"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-7 inline-flex items-center rounded-md bg-primary px-5 py-3 text-sm font-medium text-white transition-colors duration-200 hover:bg-orange-600"
           >
             Join Instant Match
