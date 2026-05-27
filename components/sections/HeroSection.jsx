@@ -11,8 +11,9 @@ export function HeroSection() {
         </h1>
 
         <p className="mt-5 max-w-lg text-base leading-relaxed text-slate-600 md:text-lg">
-          Battle League is a Free Fire tournament app built for one-tap entry,
-          auto matchmaking, auto squad formation, and fast custom room access.
+          Battle League is a Free Fire esports tournament app (2026) built for
+          one-tap entry, auto matchmaking, custom room access, and real cash
+          rewards for top players.
         </p>
 
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">

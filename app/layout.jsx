@@ -9,7 +9,7 @@ const inter = Inter({
 const siteName = "Battle League";
 const defaultTitle = "Free Fire Tournament App | Instant Join & Auto Matchmaking";
 const defaultDescription =
-  "Battle League is a Free Fire tournament app for instant join matches, auto squad formation, custom rooms, scrims, and fast rewards.";
+  "Battle League is a Free Fire esports app for instant tournament entry, auto matchmaking, custom rooms, and cash rewards — join tournaments in 2026 and win real prizes.";
 
 export const metadata = {
   title: {
@@ -19,15 +19,30 @@ export const metadata = {
   description: defaultDescription,
   keywords: [
     "Free Fire Tournament App",
-    "Instant Tournament Join",
-    "Auto Matchmaking Tournament",
-    "Free Fire Custom Room",
-    "Solo Duo Squad Tournament",
-    "Online Esports Tournament",
-    "Free Fire Scrims",
-    "Gaming Tournament Platform",
-    "Battle Royale Tournament App",
-    "Auto Squad Formation",
+    "free fire tournament app",
+    "new tournament app",
+    "new tournament app 2026",
+    "Free Fire Esports app",
+    "free fire esports app 2026",
+    "esports app 2026",
+    "free fire tournaments 2026",
+    "money earning app",
+    "free fire money earning app",
+    "earn money playing games",
+    "cash tournaments Free Fire",
+    "Free Fire cash tournaments 2026",
+    "instant tournament join",
+    "one-tap tournament entry",
+    "auto matchmaking",
+    "auto squad formation",
+    "custom room access",
+    "online esports tournament",
+    "gaming tournament platform",
+    "battle royale tournament app",
+    "free fire scrims",
+    "solo duo squad tournament",
+    "mobile esports app",
+    "competitive gaming app",
   ],
   alternates: {
     canonical: "/",
